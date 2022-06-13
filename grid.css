@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.941);
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+a{
+    display: block;
+    color: white;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'f d d'
+    'f e e'
+    ;
+    gap: 15px;
+    width: 50%;
+}
+main div{
+    padding: 1cm;
+    height: 100px;
+}
+.firstbox{
+    background-color: orangered;
+    grid-area: a;
+}
+.secondbox{
+    background-color: orange;
+    grid-area: b;
+}
+.thirdbox{
+    background-color: green;
+    grid-area: f;
+}
+.fourthbox{
+    background-color:rgba(0, 140, 255, 0.386);
+    grid-area: d;
+    grid-row: initial;
+}
+.fifthbox{
+    background-color: rgb(0, 119, 255);
+    grid-area: e;
+}
