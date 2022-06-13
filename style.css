@@ -5,6 +5,10 @@ body{
     max-width: 1440px;
     font-size: 15px;
 }
+header{
+    display: flex;
+    float: inline-start;
+}
 .container{
     display: flex;
     justify-content: center;
